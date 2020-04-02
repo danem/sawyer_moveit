@@ -8,6 +8,8 @@
   <!-- By default, we are not in debug mode -->
   <arg name="debug" default="false" />
 
+  <arg name="gazebo" default="false" />
+
   <!-- By default we do not overwrite the URDF. Change the following to true to change the default behavior -->
   <arg name="load_robot_description" default="false"/>
   <!-- Add controller box collision shape to check for link collisions if set to true-->
